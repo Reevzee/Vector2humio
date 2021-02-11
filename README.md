@@ -8,7 +8,9 @@ Instructions for deploying Vector as a docker container and shipping container a
 
 docker run -d -v /path/to/vector/vector.toml:/etc/vector/vector.toml:ro -v /var/run/docker.sock:/var/run/docker.sock  -p 8383:8383 timberio/vector:0.11.X-debian
 
+2.) Follow instructions to deploy docker events sidecar for vector https://github.com/Reevzee/docker_events2Stdout
 
+3.) Follow instructions to deploy docker stats sidecar for vector https://github.com/Reevzee/docker_events2Stdout
 
 
 

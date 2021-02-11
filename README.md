@@ -10,7 +10,7 @@ docker run -d -v /path/to/vector/vector.toml:/etc/vector/vector.toml:ro -v /var/
 
 2.) Follow instructions to deploy docker events sidecar for vector https://github.com/Reevzee/docker_events2Stdout
 
-3.) Follow instructions to deploy docker stats sidecar for vector https://github.com/Reevzee/docker_events2Stdout
+3.) Follow instructions to deploy docker stats sidecar for vector https://github.com/Reevzee/Docker_stats2stdout
 
 
 

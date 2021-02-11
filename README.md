@@ -1,8 +1,8 @@
 # Vector2humio
 
 Vector Collector for Docker
-This is tested instructions for deploying Vector as a docker container and shipping container applications logs , docker events and docker stats.
 
+This is tested instructions for deploying Vector as a docker container and shipping container applications logs , docker events and docker stats to humio endpoint.
 
 Run vector in docker using attacked vector.toml configuration file
 

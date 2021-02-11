@@ -1,0 +1,12 @@
+[sources.docker_logs]
+type = "docker_logs"
+
+[sinks.out]
+type = "humio_logs"
+inputs = [ "docker_logs" ]
+endpoint = "http://Humio_URL:8080" 
+token = "9xx4xxxx3-xxx8-xxc-8xax-xxxxxxxxx"
+encoding.codec = "json"
+
+[api]
+  enabled = true
